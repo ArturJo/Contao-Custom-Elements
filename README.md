@@ -5,9 +5,18 @@ der [RockSolid Custom Elements Dokumentation](https://rocksolidthemes.com/de/con
 heruntergeladen werden kann.
 
 Das Beispiel-Element besteht normalerweise aus den Dateien:
+
 - rsce_team.html5
 - und rsce_team_config.php
 
-Da Contao 5 nun auch Twig-Templates unterstützt, findet man hier im Repo ein Beispiel wie man das html5-Template in ein Twig-Template umwandeln könnte.
+Da Contao 5 nun auch Twig-Templates unterstützt, findet man hier im Repo ein Beispiel wie man das html5-Template in ein
+Twig-Template umwandeln könnte.
 
 Siehe die Datei **rsce_team.html.twig**.
+
+---
+
+Danke an [Martin Auswöger](https://github.com/ausi) für das wirklich tolle und hilfreiche
+Bundle [RockSolid Custom Elements](https://rocksolidthemes.com/de/contao/plugins/custom-content-elements).
+
+[GitHub Repo - RockSolid Custom Elements](https://github.com/madeyourday/contao-rocksolid-custom-elements)
