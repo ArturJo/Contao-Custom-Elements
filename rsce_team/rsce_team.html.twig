@@ -1,0 +1,23 @@
+{% extends "@Contao/content_element/_base.html.twig" %}
+
+{# optional #}
+{% set attributes = attrs()
+    .addClass(class)
+    .addClass('el-id-' ~ id) %}
+
+{# output variables #}
+{% block content %}
+    {% for member in members %}
+        <div class="member-wrapper member-wrapper-{{ loop.index }}">
+            <h2>{{ member.name }}</h2>
+            {{ contao_figure(member.image, [120, 120]) }}
+            <ul>
+                <li>E-Mail: {{ member.email }}</li>
+                {% for social in member.socials %}
+                    <li><a href="{{ social.url }}" title="{{ social.platform }}">{{ social.platform }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+{% endblock %}
+
